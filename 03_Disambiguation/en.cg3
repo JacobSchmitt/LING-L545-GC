@@ -1,0 +1,27 @@
+DELIMITERS = "." ;
+
+LIST DET = DET ;
+LIST PUNCT = PUNCT ;
+LIST ADP = ADP ;
+LIST PROPN = PROPN ;
+LIST NOUN = NOUN ;
+LIST PART = PART ;
+LIST VERB = VERB ;
+LIST Inf = VerbForm=Inf ;
+LIST the = "the"i ;
+
+SECTION
+
+SELECT DET IF (0 the) ;
+REMOVE DET IF (1C PUNCT) ;
+SELECT ADP IF (1C DET) ;
+SELECT ADP IF (1C PROPN) ;
+SELECT ADP IF (1C NOUN) ;
+SELECT DET IF (1C NOUN) ;
+SELECT DET IF (1C PROPN) ;
+SELECT PART IF (1C VERB) ;
+SELECT Inf IF (-1C PART) ;
+#before verb only part
+#after part only infinitive
+
+

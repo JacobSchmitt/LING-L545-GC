@@ -1,0 +1,78 @@
+"<President>"
+	"President" PROPN Number=Sing
+	"president" NOUN Number=Sing
+	"President" NOUN Number=Sing
+"<Bush>"
+	"Bush" PROPN Number=Sing
+"<on>"
+	"on" ADP 
+	"on" ADV 
+	"on" SCONJ 
+	"on" NOUN Number=Sing
+	"on" ADJ Degree=Pos
+	"on" X 
+	"on" NUM NumType=Card
+	"on" ADV Degree=Pos
+	"on" PROPN Number=Sing
+"<Tuesday>"
+	"Tuesday" PROPN Number=Sing
+"<nominated>"
+	"nominate" VERB Mood=Ind Tense=Past VerbForm=Fin
+	"nominate" VERB Tense=Past VerbForm=Part
+"<two>"
+	"two" NUM NumType=Card
+"<individuals>"
+	"individual" NOUN Number=Plur
+"<to>"
+	"to" PART 
+	"to" ADP 
+	"to" SCONJ 
+	"to" ADV 
+	"too" ADV Typo=Yes
+	"to" NOUN Number=Sing
+	"to" VERB VerbForm=Inf
+"<replace>"
+	"replace" VERB VerbForm=Inf
+	"replace" VERB Mood=Imp VerbForm=Fin
+"<retiring>"
+	"retire" VERB VerbForm=Ger
+"<jurists>"
+	"jurist" NOUN Number=Plur
+"<on>"
+	"on" ADP 
+	"on" ADV 
+	"on" SCONJ 
+	"on" NOUN Number=Sing
+	"on" ADJ Degree=Pos
+	"on" X 
+	"on" NUM NumType=Card
+	"on" ADV Degree=Pos
+	"on" PROPN Number=Sing
+"<federal>"
+	"federal" ADJ Degree=Pos
+"<courts>"
+	"court" NOUN Number=Plur
+"<in>"
+	"in" ADP 
+	"in" ADV 
+	"in" SCONJ 
+	"in" PROPN Number=Sing
+	"in" NOUN Number=Sing
+	"in" ADJ Degree=Pos
+	"in" VERB Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin
+	"in" X 
+"<the>"
+	"the" DET Definite=Def PronType=Art
+	"they" PRON Case=Nom Number=Plur Person=3 PronType=Prs Typo=Yes
+	"the" ADV 
+	"than" ADP Typo=Yes
+	"the" PRON Typo=Yes
+	"to" PART 
+	"to" ADP Typo=Yes
+"<Washington>"
+	"Washington" PROPN Number=Sing
+"<area>"
+	"area" NOUN Number=Sing
+	"area" PROPN Number=Sing
+"<.>"
+	"." PUNCT 
